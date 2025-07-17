@@ -8,3 +8,5 @@ interest = principal * rate * time
 
 #print result
 print(f"The simple interest is: {interest}")
+
+ 
