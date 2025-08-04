@@ -1,8 +1,10 @@
+# main-0.py
+
 import sys
 from bank_account import BankAccount
 
 def main():
-    account = BankAccount(100)  # Starting with ₦100 (or $100)
+    account = BankAccount(100)  # This always starts fresh with 100
 
     if len(sys.argv) < 2:
         print("Usage: python main-0.py <command>:<amount>")
